@@ -1,5 +1,0 @@
-#include<stdio.h>
-
-int main(){// sample changed.
-	printf("it is sample ! ");
-}
