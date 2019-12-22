@@ -7,6 +7,9 @@ void SquareByReference(int * num){
 }
 int main(){
     int num=5;
+    char a='a';
+    //char * b=a;
+    printf("%c, %c",a);
     printf("%d",SquareByValue(num));
     SquareByReference(&num);
     printf("%d",num);
